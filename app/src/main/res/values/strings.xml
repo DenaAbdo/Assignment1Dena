@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Assignment1Dena</string>
+    <string name="multiplication">Multiplication</string>
+    <string name="start">Start</string>
+    <string name="do_you_know_that_the_multiplication_process_is_a_repeated_summation_processes_n_5_x_3_5_x_5_x_5">Do you know that the multiplication process is a repeated summation process ?\nfor example:</string>
+    <string name="_5_x_3_5_x_5_x_5">5 X 3 = 5 + 5 + 5 = 15</string>
+    <string name="explainingAdding">we have 2 numbers here, 5 and 3, then we should add 5 three times and that\'s why it\'s 5+5+5 which equals 15</string>
+    <string name="now_let_s_practice_it">Now let\'s practice it!</string>
+    <string name="answer_the_question_by_clicking_on_the_circle_beside_the_right_answer">Answer the question by clicking on the circle beside the right answer</string>
+    <string name="which_one_equals_2_x_4">Which one equals 2 X 4 ?</string>
+    <string name="_2_2_2">2 + 2 + 2</string>
+    <string name="_2_2_2_2">2 + 2 + 2 + 2</string>
+    <string name="go">Go</string>
+</resources>
