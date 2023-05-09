@@ -161,35 +161,6 @@
                             android:text="@string/_2_2_2_2"
                             android:textSize="16sp" />
                     </RadioGroup>
-                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <!-- Your other views -->
-
-                        <TextView
-                            android:id="@+id/dialog_title"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Dialog Title"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
-
-                        <TextView
-                            android:id="@+id/dialog_message"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@id/dialog_title"
-                            android:text="Dialog message"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
-
-                        <Button
-                            android:id="@+id/dialog_button"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@id/dialog_message"
-                            android:text="OK" />
-
-                    </RelativeLayout>
 
 
                 </androidx.cardview.widget.CardView>

@@ -42,15 +42,12 @@ public class MainActivity extends AppCompatActivity {
                 CV2.setVisibility(View.VISIBLE);
             }
         });
-        LayoutInflater inflater = getLayoutInflater();
-        View dialogView = inflater.inflate(R.layout.dialog_layout, null);
+        Question question = new Question();
+        question.formQuestion();
+        tvQuestion.setText(question.formQuestion());
+        radioButton3.setText(question.rightChoice());
+        RBchoice2.setText(question.wrongChoice());
 
-        TextView dialogTitle = dialogView.findViewById(R.id.dialog_title);
-        TextView dialogMessage = dialogView.findViewById(R.id.dialog_message);
-        Button dialogButton = dialogView.findViewById(R.id.dialog_button);
 
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setView(dialogView);
-        AlertDialog alertDialog = builder.create();
     }
 }
